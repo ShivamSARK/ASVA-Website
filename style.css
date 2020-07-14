@@ -107,19 +107,78 @@
   
   .dropdown-content a {
     color: black;
-    padding: 12px 16px;
+    padding: 12px 12px;
     text-decoration: none;
     display: block;
+    font-weight: lighter;
   }
   
   .dropdown-content a:hover {
-      background-color: #ddd;
+      background-color:rgb(13, 13, 75);
     }
   
   .dropdown:hover .dropdown-content {
       display: block;
     }
   
+    .dropdown-content2 {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 1400px;
+        box-shadow: 0px 8px 16px 5px rgba(0,0,0,0.2);
+        z-index: 1;
+        margin-left: -1030px;
+      }
+
+  .dropdown:hover .dropdown-content2 {
+    display: block;
+  }
+  .dropdown-content2 a {
+    color: black;
+    padding: 12px 12px;
+    text-decoration: none;
+    display: block;
+    font-weight: lighter;
+  }
+  
+  .dropdown-content2 a:hover {
+    background-color:rgb(13, 13, 75);
+  
+  }
+  .dropdown-content3 {
+    display: none;
+    position: absolute;
+    background-color:rgb(13, 13, 75);
+    min-width: 240px;
+    box-shadow: 0px 8px 16px 5px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-left: -170px;
+    text-align: center;
+  }
+  
+  .dropdown-content3 a {
+    color: white;
+    padding: 12px 12px;
+    text-decoration: none;
+    display: block;
+    font-weight: lighter;
+  }
+  
+  .dropdown-content3 a:hover {
+      background-color:rgb(13, 13, 75);
+      text-decoration: none;
+    }
+  
+  .dropdown:hover .dropdown-content3 {
+      display: block;
+    }
+  
+ 
+
+   
+   
+      
  
 /*-----------------------------Craousel----------------------------*/
 
@@ -378,7 +437,7 @@
     color: white;
     font-size: 15px;
 }
-.middle{}
+
 /*---------------------Media Querry-------------------*/
 
 @media screen and (max-width: 1330px){
@@ -409,6 +468,7 @@
         display: none;
     } 
 }
+
 
 
 
